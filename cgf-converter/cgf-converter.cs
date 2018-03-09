@@ -21,7 +21,7 @@ namespace CgfConverter
 
 #if DEV_DOLKENSP
             Utils.LogLevel = LogLevelEnum.None;      // Display NO error logs
-            Utils.DebugLevel = LogLevelEnum.Debug;
+            Utils.DebugLevel = LogLevelEnum.Debug; 
 
             args = new String[] { @"O:\Mods\Models\*.cg?", @"O:\Mods\Models\*.skin", @"O:\Mods\Models\*.chr", "-objectdir", @"O:\Mods\SC\Latest", "-tif", "-merge", "-obj", "-outdir", @"O:\Mods\Models\Export" };
             args = new String[] { @"O:\Mods\SC\Latest\*.cg?", @"O:\Mods\SC\Latest\*.skin", @"O:\Mods\SC\Latest\*.chr", "-objectdir", @"O:\Mods\SC\Latest", "-tif", "-merge", "-obj", "-outdir", @"O:\Mods\Assets_Out" };
